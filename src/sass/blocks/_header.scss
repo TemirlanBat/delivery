@@ -1,0 +1,27 @@
+.header{
+    display: grid;
+    grid-template-columns: 150px 650px 180px 160px;
+    justify-content: space-between;
+    align-items: center;
+    &__call{
+        width: 163px;
+    }
+    &__question{
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #ffffff;
+        text-align: end;
+    }
+    &__phone{
+        margin-top: 5px;  
+        font-size: 19px;
+        line-height: 24px;
+        font-weight: 700;
+        color: #ffffff;
+        &:hover{
+            text-decoration: none;
+            color: #ffffff;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.button{
+    display: block;
+    height: 45px;
+    width: 160px;
+    background-color: $main-color;
+    border-radius: 20px;
+    border: none;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    &:active, &:focus{
+        outline: none;
+    }
+}

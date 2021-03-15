@@ -1,0 +1,25 @@
+.title{
+    line-height: 23px;
+    &_fz16{
+        font-size: 16px;
+        font-weight: 700;
+    }
+    &_fz18{
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 0;
+    }
+    &_fz26{
+        color: #2e2e2e;
+        font-size: 26px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &_fz28{
+        color: #3a3a3a;
+        font-size: 28px;
+        font-weight: 400;
+    }
+}

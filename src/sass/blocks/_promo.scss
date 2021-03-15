@@ -1,0 +1,87 @@
+.promo{
+    min-height: 680px;
+    background: url('../img/promo_bg.jpg') 50%/cover no-repeat;
+    padding: 23px 0 82px 0;
+    &__header{
+        margin-top: 9px;
+        font-size: 24px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #ffffff;
+        text-align: center;
+    }
+    &__bigheader{
+        margin-top: 26px;
+        font-family: 'RobotoCondensed', sans-serif;
+        font-size: 62px;
+        line-height: 1.2;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $main-color;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    &__subheader{
+        margin-top: 10px;
+        font-family: 'RobotoCondensed', sans-serif;
+        font-size: 36px;
+        line-height: 1.2;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #ffffff;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    &__divider{
+        margin: 38px auto 0 auto;
+        width: 830px;
+        height: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        span{
+            display: block;
+            background-color:#ffffff;
+            opacity: 0.7;
+            width: 400px;
+            height: 1px;
+        }
+        span.circle{
+            width:10px;
+            height:10px;
+            border-radius: 100%;
+        }
+    }
+    &__wrapper{
+        margin-top: 27px;
+        display: grid;
+        grid-template-columns: repeat(4, minmax(248px, auto));
+    }
+    &-item{
+        display: grid;
+        grid-template-rows: repeat(2, minmax(75px, auto));
+        grid-auto-rows: minmax(38px, auto);
+        justify-items: center;
+        align-items: space-between;
+        &__descr{
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 300;
+            font-style: normal;
+            letter-spacing: normal;
+            text-align: center;
+        }
+    }
+    &__btn{
+        margin: 39px auto 0 auto;
+        width: 230px;
+        height: 57px;
+        font-size: 15px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 17.35px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
