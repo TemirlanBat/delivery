@@ -1,0 +1,16 @@
+@mixin break-border{
+    &::before, &::after{
+        content: '';
+        display: block;
+        height: 5px;
+        position: absolute;
+        width: 10px;
+        top: 52%;
+        right: 100%;
+        background-color: #ffffff;
+    }
+    &::after{
+        left: 100%;
+        position: absolute;
+    } 
+}
