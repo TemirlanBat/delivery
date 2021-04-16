@@ -3,7 +3,8 @@
     padding-top: 51px;
     &__wrapper{
         margin-top: 37px;
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(3, 360px);
         justify-content: space-between;
     }
     &-item{

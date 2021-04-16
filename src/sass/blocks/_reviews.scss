@@ -1,0 +1,75 @@
+.reviews{
+    min-height: 455px;
+    padding: 51px 0 65px 0;
+    &__carousel{
+        margin: 31px auto 0 auto;
+        max-width: 1400px;
+        position: relative;
+    }
+    &-item{
+        width: 360px;
+        height: 145px;
+        opacity: 0.3;
+        text-align: center;
+        &__img{  
+            img{
+            margin: 0 auto;  
+            height: 62px;
+            width: 62px;
+        }
+        }
+
+        &__title{
+            margin-top: 19px;
+            font-size: 10px;
+        }
+        &__descr{
+            font-size: 9px;
+            color: #3a3a3a;
+        }
+    } 
+}
+.slick-slide{
+    margin: 0 45px;
+    padding-top: 48px;
+    
+}
+
+.slick-center{
+    padding-top: 0;
+    width: 600px;
+    height: 250px;
+    opacity: 1;
+    outline: none;
+    img{
+        margin: 0 auto;  
+        width: 114px;
+        height: 114px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    .reviews-item__descr{
+        width: 600px;
+        margin-top: 15px;
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+    }
+}
+.slick-list{
+    margin-left: -45px;
+    margin-right: -45px;
+}
+.slick-prev, .slick-next{
+    border: none;
+    background-color: #ffffff;
+    position: absolute;
+    top: 35px;
+    left: 597px;
+    z-index: 2;
+}
+.slick-next{
+    right: 597px;
+    left: auto;
+}

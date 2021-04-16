@@ -14,4 +14,12 @@
     &:active, &:focus{
         outline: none;
     }
+    &_submit{
+        width: 180px;
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        transform: translateX(-50%); 
+        @include break-border;
+    }
 }

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
 @import 'libs/bootstrap-reboot.min';
+@import 'libs/slick.scss';
 @import 'base/variables';
 @import 'base/mixins';
 @import 'blocks/promo';
@@ -12,6 +13,11 @@
 @import 'blocks/agent';
 @import 'blocks/price';
 @import 'blocks/consultation';
+@import 'blocks/forms';
+@import 'blocks/manager';
+@import 'blocks/schema';
+@import 'blocks/reviews';
+@import 'blocks/questions';
 @import 'blocks/media';
 *{
     font-family: 'Roboto', sans-serif;

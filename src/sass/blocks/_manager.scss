@@ -1,0 +1,31 @@
+.managers{
+    min-height: 342px;
+    background: url('../img/managers_bg.jpg') center center/cover no-repeat;
+    padding: 58px 0 75px 0;
+    &__round{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 102px;
+        height: 102px;
+        border: 1px solid #ffffff;
+        border-radius: 100%;
+    }
+    &__title{
+        margin-top: 20px;
+        text-transform: none;
+        color: #ffffff;
+    }
+    &__descr{
+        margin: 0 auto;
+        margin-top: 22px;
+        width: 984px;
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 19px;
+        font-weight: 300;
+        line-height: 27px;
+        text-align: center;
+    }
+}
